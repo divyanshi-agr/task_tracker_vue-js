@@ -21,12 +21,26 @@ export default {
     };
   },
   created() {
-    this.tasks = {
-      id: 1,
-      text: "Meeting at school",
-      day: "May 17th",
-      reminder: true
-    };
+    this.tasks = [
+      {
+        id: 1,
+        text: "Meeting at school",
+        day: "May 17th",
+        reminder: true
+      },
+      {
+        id: 2,
+        text: "Intern start",
+        day: "May 17th",
+        reminder: false
+      },
+      {
+        id: 3,
+        text: "Learn Vue",
+        day: "May 17th",
+        reminder: true
+      }
+    ];
   }
 };
 </script>
